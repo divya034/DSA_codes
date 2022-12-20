@@ -12,7 +12,7 @@ public:
         if (nodes.size() == 0) return true; 
         if (nodes.size() == 2) {
             for (auto& g : graph) 
-                if (!g.count(nodes[0]) && !g.count(nodes[1])) return true; 
+                if (!g.count(nodes[0]) && !g.count(nodes[1])) return true; // if these 2 nodes with negative degree are not connected then true
             return false; 
         }
         if (nodes.size() == 4) {
@@ -21,5 +21,5 @@ public:
             return false; 
         }
         return false; 
-    }
+    } 
 };
