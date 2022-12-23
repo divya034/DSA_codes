@@ -13,7 +13,7 @@ object is instantiated.
 C++ Syntax (for class):
 class student{
 public:
-int id; // data member
+int id; 
 int mobile;
 string name;
 int add(int x, int y){ // member functions
