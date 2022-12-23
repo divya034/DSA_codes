@@ -25,3 +25,12 @@ return x + y;
 Object is a run-time entity. It is an instance of the class. An object can
 represent a person, place or any other item. An object can operate on
 both data members and member functions.
+  
+  
+  C++ Syntax (for object):
+student s = new student();
+Note : When an object is created using a new keyword, then space is
+allocated for the variable in a heap, and the starting address is stored in
+the stack memory. When an object is created without a new keyword,
+then space is not allocated in the heap memory, and the object contains
+the null value in the stack.
