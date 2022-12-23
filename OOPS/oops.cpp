@@ -20,3 +20,8 @@ int add(int x, int y){ // member functions
 return x + y;
 }
 };
+
+
+Object is a run-time entity. It is an instance of the class. An object can
+represent a person, place or any other item. An object can operate on
+both data members and member functions.
