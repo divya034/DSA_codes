@@ -16,7 +16,7 @@ public:
 int id; 
 int mobile;
 string name;
-int add(int x, int y){ // member functions
+int add(int x, int y){
 return x + y;
 }
 };
