@@ -45,3 +45,11 @@ In C++
 , the class which inherits the members of another class is called
 derived class and the class whose members are inherited is called base class.
 The derived class is the specialized class for the base class.
+  
+  class derived_class :: visibility-mode base_class;
+visibility-modes = {private, protected, public}
+Types of Inheritance :
+1. Single inheritance : When one class inherits another class, it is known
+as single level inheritance
+2. Multiple inheritance : Multiple inheritance is the process of deriving
+a new class that inherits the attributes from two or more classes.
