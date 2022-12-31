@@ -1,3 +1,5 @@
+SOLVE THE VARIATION OF THIS
+
 int Nearly_sorted(int a[] , int key ,int n)
 {
     int l = 0 , mid;
