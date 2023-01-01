@@ -12,11 +12,11 @@ vector<long long> printFirstNegativeInteger(long long int A[] , long long int N,
             end++;
         }
         else if(end-start+1 == K){
-            if(ans.size()==0){ //ANSWER CALCULATION PART 1
+            if(ans.size()==0){ //ANSWER CALCULATION PART 1:  IF THERE IS NO -VE NUMBER IN THAT WINDOW
                 res.push_back(0);
             }
             else{
-                res.push_back(ans.front());  //ANSWER CALCULATION PART 1
+                res.push_back(ans.front()); //ANSWER CALCULATION PART 2: THE FRONT WILL HAVE THE -VE NO. THAT APPEARED FIRST
                 if(A[start]<0)   //REVERSE CALCULATION 1
                     ans.pop_front();
             }
