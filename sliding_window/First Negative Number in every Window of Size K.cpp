@@ -1,5 +1,7 @@
 vector<long long> printFirstNegativeInteger(long long int A[] , long long int N, long long int K) {
     int start=0,end=0;
+    //ans = list
+    //res = final ans
     deque<long long> ans;
     vector<long long> res;
     while(end < N){
