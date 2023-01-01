@@ -5,19 +5,19 @@ vector<long long> printFirstNegativeInteger(long long int A[] , long long int N,
     deque<long long> ans;
     vector<long long> res;
     while(end < N){
-        if(A[end] < 0){
+        if(A[end] < 0){ //CALCULATION 1
             ans.push_back(A[end]);
         }
         if(end-start+1 < K){
             end++;
         }
         else if(end-start+1 == K){
-            if(ans.size()==0){
+            if(ans.size()==0){ //ANSWER CALCULATION PART 1
                 res.push_back(0);
             }
             else{
-                res.push_back(ans.front());
-                if(A[start]<0)
+                res.push_back(ans.front());  //ANSWER CALCULATION PART 1
+                if(A[start]<0)   //REVERSE CALCULATION 1
                     ans.pop_front();
             }
             start++;
